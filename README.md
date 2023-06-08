@@ -59,4 +59,4 @@ so the current character was masked and should be skipped.
 The lines which contain errors are saved in the arrays `open_bra`, `open_par`, `open_squ`. Lines with Single and double quote errors   
 are stored in the variables `singlequote_line` and `doublequote_line`. A line with a never closed comment is stored in the variable   
 `comment_line`. Every other comment error is printed immediately and uses the current line variable `nline`.   
-Next we iterate through the lines and print the errors, if a line is found in of the error arrays/variables.
+Next we iterate through the lines and print the errors, if a line is found in one of the error arrays/variables.
