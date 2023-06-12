@@ -18,7 +18,6 @@ so the current character was masked and should be skipped.
 
 > 2. Check if we are entering a comment, if so:
     1. Check whether we are not already in a comment and set `iscomment` to `1` (true). Then continue with the while loop.
-    2. If we are already in comment, throw error, since nested comments are not allowed.
 
 > 3. Check if we are leaving a comment if so:
     1. Check wheter we are currently in a comment and set `iscomment` to `0` (false). Then continue with the while loop.
