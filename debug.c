@@ -54,10 +54,6 @@ int main()
                         iscomment = !iscomment;
                         comment_line = nline;
                     }
-                    else {
-                        printf("1: Line %d: New comment '/*' before last one was closed\n", nline);
-                        return 0;
-                    }
                 }
             }
 
